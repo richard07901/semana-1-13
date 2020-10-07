@@ -100,3 +100,12 @@ body{
     font-weight: bold;
     text-align: center;
 }
+
+.col-3{
+    width: 33.08%;
+    height: 470px;
+    background-color: aquamarine;
+    display: inline-block;
+    padding: -15px;
+    margin-top: 5px
+}
