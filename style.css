@@ -120,4 +120,62 @@ body{
     bottom: 0;
 }
 
+.section-news > div:first-child{
+    margin-bottom: 2px; 
+}
+.news{
+    width: 100%;
+    background-color: cadetblue;
+    height: 240px;
+    display: inline-flex;
+}
 
+.news > div:first-child{
+    margin: 0 6px;
+}
+
+.news-data{
+    width: 49%;
+    height: 100%;
+    background-color: rebeccapurple;
+    display: inline-flex; 
+}
+
+.news-image{
+    margin: 10px 0;
+    padding: 0 40px;
+    color: white;
+}
+
+.news-text{
+    color: white;
+    text-align: justify;
+    width: 49%;
+    padding: 1em 0;
+}
+
+.news-text > span.news-url{
+    text-align: right;
+}
+
+.news-title{
+    /* text-decoration: underline; */
+}
+.fa-ambulance.news-logo{
+    padding: 0.25em 0;
+}
+
+
+.news-url{
+    font-size: 10px;
+    float: right;
+}
+
+.news-url > a{
+
+    color: #ffffff; 
+}
+
+hr{
+    color: white;
+}
