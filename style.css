@@ -110,6 +110,14 @@ body{
     margin-top: 5px;
     text-align: center;
 }
+.col-5{
+    width: 19%;
+    height: 470px;
+    display: inline-block;
+    margin: 5px 4px 0;
+    text-align: center;
+    background-color: rgb(255, 177, 148);
+}
 
 .service-content{
     padding: 0.5em 0;
@@ -118,6 +126,10 @@ body{
     padding: 10px;
     text-align: justify;
     bottom: 0;
+}
+
+.service-text.memebers{
+    font-style: italic; 
 }
 
 .section-news > div:first-child{
@@ -158,9 +170,7 @@ body{
     text-align: right;
 }
 
-.news-title{
-    /* text-decoration: underline; */
-}
+
 .fa-ambulance.news-logo{
     padding: 0.25em 0;
 }
