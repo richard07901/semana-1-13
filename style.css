@@ -1,6 +1,7 @@
 body{
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #c8c7c7;
 }
 
 .container{
@@ -49,7 +50,9 @@ body{
 .imagenperfil{
     background-image: url('./richard.jpg');
     height: 150px;
+    width: 150px;
     border-radius:150px;
+    margin: auto;
 }
 
 .nav-list{
@@ -92,7 +95,7 @@ body{
 
 .section-3{
     height: 500px;
-    background-color: rgb(10, 10, 10);
+    background-color: #c8c7c7;
 }
 
 .footer{
@@ -126,12 +129,14 @@ body{
     display: inline-block;
     margin: 5px 4px 0;
     text-align: center;
-    background-color: rgb(104, 44, 44);
+    background-color: #0c6088;
+    border-radius: 0.75cm;
 }
 
 .service-content{
     padding: 0.5em 0;
-    background-color: rgb(104, 44, 44);
+    background-color: #0c6088;
+    position: static;
 }
 .service-text{
     padding: 10px;
@@ -142,6 +147,9 @@ body{
 
 .service-text.memebers{
     font-style: italic; 
+    position: relative;
+    background-color: #0c6088;
+    color:#c8c7c7;
 }
 
 .section-news > div:first-child{
