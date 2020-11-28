@@ -81,7 +81,7 @@ body{
 
 .section-2{
     height: 500px;
-    background-color: gainsboro;
+    background-color: rgb(202, 100, 100);
 }
 
 .section-3{
@@ -91,7 +91,7 @@ body{
 
 .footer{
     height: 200px;
-    background-color: yellowgreen;
+    background-color: rgb(209, 209, 209);
     bottom: 0px;
     /* position: fixed; */
     /* width: 1200px; */
@@ -108,7 +108,7 @@ body{
 .col-3{
     width: 33.08%;
     height: 470px;
-    background-color: aquamarine;
+    background-color: rgb(204, 74, 74);
     display: inline-block;
     padding: -15px;
     margin-top: 5px;
@@ -125,13 +125,13 @@ body{
 
 .service-content{
     padding: 0.5em 0;
-    background-color: rgb(104, 44, 44);
+    background-color: rgb(204, 74, 74);
 }
 .service-text{
     padding: 10px;
     text-align: justify;
     bottom: 0;
-    background-color:rgb(104, 44, 44);
+    background-color:rgb(204, 74, 74);
 }
 
 .service-text.memebers{
@@ -143,7 +143,7 @@ body{
 }
 .news{
     width: 100%;
-    background-color: cadetblue;
+    background-color: rgb(204, 74, 74);
     height: 240px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -157,7 +157,7 @@ body{
 .news-data{
     width: 49%;
     height: 100%;
-    background-color: rgb(148, 60, 60);
+    background-color: rgb(204, 74, 74);
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
