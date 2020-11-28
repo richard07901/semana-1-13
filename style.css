@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-    width: 1200px;
+    width: 1500px;
     background-color: #888888;
     height: 2000px;
     -ms-flex-item-align: center;
@@ -41,8 +41,8 @@ body{
 }
 
 .container-imagen{
-    background-image: url('./deadpool.jpg');
-    height: 240px;
+    background-image: url('./deadpool_sexy.png');
+    height: 720px;
     /* margin-bottom: 20px; */
 }
 
