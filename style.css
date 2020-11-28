@@ -4,8 +4,8 @@ body{
 }
 
 .container{
-    width: 1500px;
-    background-color: #888888;
+    width: 1200px;
+    background-color: #010203;
     height: 2000px;
     -ms-flex-item-align: center;
         align-self: center;
@@ -14,14 +14,14 @@ body{
 }
 
 .header{
-    background-color: aqua;
+    background-color: rgba(17, 47, 146, 0.788);
     height: auto;
     
 }
 
 .container-menu{
     height: 60px;
-    background-color: antiquewhite;
+    background-color: rgb(230, 221, 221);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -42,7 +42,7 @@ body{
 
 .container-imagen{
     background-image: url('./deadpool_sexy.png');
-    height: 720px;
+    height: 240px;
     /* margin-bottom: 20px; */
 }
 
@@ -74,7 +74,7 @@ body{
 
 .section-1{
     height: 500px;
-    background-color: rebeccapurple;
+    background-color: rgb(8, 7, 8);
 
 }
 
@@ -124,11 +124,13 @@ body{
 
 .service-content{
     padding: 0.5em 0;
+    background-color: rgb(104, 44, 44);
 }
 .service-text{
     padding: 10px;
     text-align: justify;
     bottom: 0;
+    background-color:rgb(104, 44, 44);
 }
 
 .service-text.memebers{
@@ -154,7 +156,7 @@ body{
 .news-data{
     width: 49%;
     height: 100%;
-    background-color: rebeccapurple;
+    background-color: rgb(148, 60, 60);
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
