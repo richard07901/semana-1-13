@@ -49,6 +49,7 @@ body{
 .imagenperfil{
     background-image: url('./richard.jpg');
     height: 150px;
+    border-radius:150px;
 }
 
 .nav-list{
