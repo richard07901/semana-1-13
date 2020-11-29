@@ -18,6 +18,30 @@ body{
     text-align: center;
 }
 
-.servicios__contenedor{
+footer{
+    width: 100%;
+    background: #f06c5a;
+    display: flex;
+}
 
+.footer-descripcion{
+    width: 50%;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.footer-texto{
+    color: white;
+    
+    
+}
+
+.footer-texto-descripcion{
+    margin-left: 30px;
+    text-align: left;
+}
+
+.footer-team{
+    color: white;
 }
