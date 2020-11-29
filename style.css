@@ -283,7 +283,7 @@ hr{
 
 footer{
   width: 100%;
-  background: #f06c5a;
+  background: #243755;
   display: flex;
 }
 
@@ -307,4 +307,49 @@ footer{
 
 .footer-team{
   color: white;
+}
+
+
+
+.section-1{
+  height: 300px;
+
+}
+
+.img_service{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.col-3{
+  width: 33.08%;
+  height: 300px;
+  background-color:#243755;
+  display: inline-block;
+  margin-top: 5px;
+
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.service-content{
+  padding: 0.5em 0;
+  text-align: center;
+  border-top: #eb5a47 solid 3px;
+}
+.service-text{
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+  color: #fff;
+}
+
+.service-text.memebers{
+  font-style: italic; 
+}
+
+.service_a{
+  text-decoration: none;
+  color: #f8f4f4;
 }
