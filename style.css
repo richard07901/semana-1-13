@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin-top: 0px;
+   font-family: 'Merriweather', serif;
+
+}
+
+.container{
+    width: 1200px;
+   
+    height: 2000px;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin: 0px auto;
+    padding: 0 auto;
+}
+
+/*header*/
+header{
+  width: 100%;
+  height:600px;
+  background: linear-gradient(to bottom,
+  rgba(12,96,133, .4),
+  rgba(235,90,71, .6),
+  rgba(33,55,85)
+  ), url(fondo.jpg);
+  
+}
+nav{
+  width: 1200px;
+  position: fixed;/* se queda siempre en la pantalla*/
+  border-bottom: #000 solid 5px;
+
+
+
+}
+.header{
+  background: #c8c7c7;
+  height: 80px;
+  color:#243755;
+  font-weight: 700;
+
+}
+.container-menu{
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+ 
+  height:inherit;
+}
+nav .nav-list a{
+  display: inline-block;
+  padding: 5px 0;
+  margin-right: 17px;
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  font-weight: 300;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;/*linea de abajo*/
+  color: inherit;/*herede el color de su padre*/
+}
+nav .nav-list a:hover{
+  border-bottom: 3px solid #eb5a47;
+  transition: 0.6s;
+}
+
+.container-imagen{
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color:#243755;
+  overflow: hidden;
+  text-align: center;
+   font-family: 'Merriweather', serif;
+}
+.container-imagen__texto{
+  width: 900px;
+  height: 60px;
+  text-align: center;
+  background: rgb(200,199,199,.6);
+
+}
+.container-logo{
+font-family: 'Merriweather', serif;
+color:#243755;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+}
+
+.container-logo, .container-logo img{ height:80px;}
+
+
+.section-text{
+  margin: 0;
+  color: #161616;
+  background: rgb(204, 74, 74);
+  font-weight: bold;
+  text-align: center;
+}
+
+.col-3{
+  width: 33.08%;
+  height: 470px;
+  background-color: aquamarine;
+  display: inline-block;
+  padding: -15px;
+  margin-top: 5px;
+  text-align: center;
+}
+.col-5{
+  width: 19%;
+  height: 470px;
+  display: inline-block;
+  margin: 5px 4px 0;
+  text-align: center;
+  background-color: rgb(255, 177, 148);
+}
+
+.service-content{
+  padding: 0.5em 0;
+  background-color: rgb(104, 44, 44);
+}
+.service-text{
+  padding: 10px;
+  text-align: justify;
+  bottom: 0;
+  background-color:rgb(104, 44, 44);
+}
+
+.service-text.memebers{
+  font-style: italic; 
+}
+
+.news{
+  background: #243755;
+  display: flex;
+  margin-top: 10px;
+  
+}
+
+
+
+.new-noticias{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  
+}
+
+.new-noticias-img{
+  border-radius: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  opacity: 80%;
+}
+
+.new-noticias-textos-titulo{
+  color: white;
+}
+
+.new-noticias-textos{
+  margin: 10px;
+}
+
+.new-noticias-textos-resumen{
+  text-align: justify;
+  color: #c8c7c7;
+}
+
+.new-noticias-textos-enlace{
+  color: #eb5a47;
+}
+
+hr{
+  color: white;
+}
+
+.main-menu{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-menu__item{
+  line-height: 3;
+}
+
+.main-menu__link{
+  text-decoration: none;
+  font-size: 1em;
+  color: #c02525;
+}
+
+.main-menu__link:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+.imagenperfil{
+  /* background-image: url('./richard.jpg'); */
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 0px;
+  border-radius: 1cm;
+  margin-bottom: 20px;
+}
+
+.imagenperfil:hover{
+  transform: scale(1.25);
+}
+
+.section-3{
+  height: 520px;
+  background-color: #c8c7c7;
+}
+
+.col-5{
+  width: 226px;
+  height: 450px;
+  display: inline-block;
+  margin-top: 10px;
+  margin: 5px 5px 0;
+  text-align: justify;
+  background-color: #243755;
+  border-radius: 0.75cm;
+  position: static;
+  padding: 0.5em;
+}
+
+.team-nombre{
+  text-decoration: none;
+  font-size: 1em;
+  color: #c8c7c7;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 150px;
+}
+
+.team-nombre:hover{
+  text-decoration-line: underline;
+  font-weight: bold;
+}
+
+.section-text{
+  font-weight: 1000;
+  text-align: center;
+  padding: 3px 10px;
+  border: #243755 solid;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
