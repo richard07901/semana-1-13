@@ -272,3 +272,39 @@ hr{
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
+
+.servicios{
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+footer{
+  width: 100%;
+  background: #f06c5a;
+  display: flex;
+}
+
+.footer-descripcion{
+  width: 50%;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+.footer-texto{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.footer-texto-descripcion{
+  margin-left: 30px;
+  text-align: left;
+}
+
+.footer-team{
+  color: white;
+}
