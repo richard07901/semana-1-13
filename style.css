@@ -5,13 +5,12 @@
 }
 body{
     margin-top: 0px;
-   font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif;
 
 }
 
 .container{
-    width: 1200px;
-   
+    width: 1200px; 
     height: 2000px;
     -ms-flex-item-align: center;
     align-self: center;
@@ -51,7 +50,6 @@ nav{
   width: 90%;
   justify-content: space-between;
   align-items: center;
- 
   height:inherit;
 }
 nav .nav-list a{
@@ -82,7 +80,7 @@ nav .nav-list a:hover{
   color:#243755;
   overflow: hidden;
   text-align: center;
-   font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif;
 }
 .container-imagen__texto{
   width: 900px;
